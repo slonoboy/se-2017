@@ -1,0 +1,87 @@
+nav{
+  background-color: black;
+  margin-left: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tv{
+  width: 100%
+}
+
+.container{
+  position: relative;
+  margin-top: 20px;
+  height: 1200px;
+  width: 95%;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first{
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  bottom: 50%;
+  right: 50%;
+}
+
+.pic1 {
+  margin-top: 3%;
+}
+
+h3{
+  text-align: left;
+}
+.second{
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  bottom: 50%;
+  right: 3%;
+}
+.third{
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  bottom: 3%;
+  right: 50%;
+}
+.fourth{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: 3%;
+  right: 3%;
+}
+
+.nav-pills{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+  background: black;
+  border: 1px solid white;
+}
+
+a:hover{
+  color: grey;
+}
