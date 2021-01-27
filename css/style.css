@@ -1,10 +1,22 @@
+body{
+  background-attachment: fixed;
+  /*font-family: 'Londrina Solid', cursive;*/
+  font-family: 'Fredoka One', cursive;
+}
+
 nav{
-  background-color: black;
   margin-left: auto;
+  width: 100%;
+  margin-top: 50px;
 }
 
 h1{
   text-align: center;
+}
+
+td{
+    border: 1px solid green;
+    overflow: hidden;
 }
 
 .logo {
@@ -22,8 +34,8 @@ h1{
 .container{
   position: relative;
   margin-top: 20px;
-  height: 1200px;
-  width: 95%;
+  height: 1000px;
+  width: 80%;
   background-size: 100% 100%;
   margin-left: auto;
   margin-right: auto;
@@ -66,20 +78,21 @@ h3{
   right: 3%;
 }
 
-.nav-pills{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .navbar {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-top: 50px;
 }
 
-li{
-  background: black;
-  border: 1px solid white;
+.nav-link{
+  font-size: 35px;
+}
+
+li:hover{
+  opacity: 0.5;
+}
+
+a{
+  font-family: 'Fredoka One', cursive;
 }
 
 a:hover{
